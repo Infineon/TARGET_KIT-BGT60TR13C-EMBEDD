@@ -1,0 +1,21 @@
+[Device=CY8C6247FDI-D02]
+
+[Blocks]
+# CYBSP_RADAR_SPI
+scb[2]
+# CYBSP_RADAR_SPI_MOSI
+ioss[0].port[9].pin[0]
+# CYBSP_RADAR_SPI_MISO
+ioss[0].port[9].pin[1]
+# CYBSP_RADAR_SPI_CLK
+ioss[0].port[9].pin[2]
+# CYBSP_RADAR_SPI_CS
+ioss[0].port[9].pin[3]
+# CYBSP_RADAR_IRQ
+ioss[0].port[6].pin[2]
+# CYBSP_RADAR_EN_LDO
+ioss[0].port[11].pin[5]
+# CYBSP_RADAR_RST
+ioss[0].port[11].pin[4]
+# CYBSP_TRUSTB_SWI
+ioss[0].port[11].pin[3]
