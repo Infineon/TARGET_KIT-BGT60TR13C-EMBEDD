@@ -15,9 +15,16 @@ The KIT-BGT60TR13C-EMBEDD library includes the following:
 * API documentation
 
 ### What Changed?
+#### v4.0.0
+Note: This revision is only compatible with ModusToolbox Tools 3.0 and newer.
+* Removed default dependency on CAPSENSE™ middleware. The library manager can be used to add this dependency if desired.
+* Updated recipe-make, core-make, and PDL to new major versions
+* Regenerated code with Configurators from ModusToolbox™ v3.0.0
+* Renamed top level board makefile to bsp.mk
+* Removed version.xml file in favor of new props.json
 #### v3.1.0
 * Added optional macro CYBSP_CUSTOM_SYSCLK_PM_CALLBACK to allow overriding default clock power management behavior.
-* Enable AIROC BLE stack for MCUs with an integrated BLE radio
+* Enable AIROC™ BLE stack for MCUs with an integrated BLE radio
 #### v3.0.0
 * Updated to HAL dependency to v2.0.0
 * Updated CAPSENSE™ dependency to v3.0.0
@@ -72,16 +79,16 @@ This version of the KIT-BGT60TR13C-EMBEDD BSP was validated for compatibility wi
 
 | Software and Tools                        | Version |
 | :---                                      | :----:  |
-| ModusToolbox™ Software Environment        | 2.4.0   |
+| ModusToolbox™ Software Environment        | 3.0.0   |
 | GCC Compiler                              | 10.3.1  |
-| IAR Compiler                              | 8.4     |
-| ARM Compiler                              | 6.11    |
+| IAR Compiler                              | 9.30.1  |
+| ARM Compiler                              | 6.16    |
 
-Minimum required ModusToolbox™ Software Environment: v2.4.0
+Minimum required ModusToolbox™ Software Environment: v3.0.0
 
 ### More information
 * [KIT-BGT60TR13C-EMBEDD BSP API Reference Manual][api]
-* [KIT-BGT60TR13C-EMBEDD Documentation](http://www.cypress.com/KIT-BGT60TR13C-EMBEDD)
+* [KIT-BGT60TR13C-EMBEDD Documentation](https://www.infineon.com/cms/en/applications/solutions/sensor-solutions/presence-detection/)
 * [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
 * [Infineon GitHub](https://github.com/infineon)
 * [ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)
@@ -89,4 +96,4 @@ Minimum required ModusToolbox™ Software Environment: v2.4.0
 [api]: https://infineon.github.io/TARGET_KIT-BGT60TR13C-EMBEDD/html/modules.html
 
 ---
-© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2021.
+© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2022.

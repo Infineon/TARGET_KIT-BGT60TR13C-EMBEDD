@@ -37,13 +37,14 @@ var NAVTREE =
     [ "API Reference Manual", "index.html#autotoc_md8", null ],
     [ "More information", "index.html#autotoc_md9", null ],
     [ "BSP Overview", "md_source_bsps_mt_bsp_user_guide.html", null ],
-    [ "BSP Settings", "md_bsp_settings.html", null ]
+    [ "BSP Settings", "md_bsp_settings.html", null ],
+    [ "BSP API Reference", "modules.html", "modules" ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"group__group__bsp__errors.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
