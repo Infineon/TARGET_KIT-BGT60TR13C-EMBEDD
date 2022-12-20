@@ -69,7 +69,7 @@
 * Cy_SysEnableCM4() function call.
 * By default, the COMPONENT_CM0P_SLEEP prebuilt image is used for the CM0p core.
 * More about CM0+ prebuilt images, see here:
-* https://github.com/cypresssemiconductorco/psoc6cm0p
+* https://github.com/Infineon/psoc6cm0p
 *
 * Change the flash and RAM sizes by editing the macros value in the
 * linker files for both CPUs:
@@ -106,7 +106,7 @@
 * Cy_SysEnableCM4() function call.
 * By default, the COMPONENT_CM0P_SLEEP prebuilt image is used for the CM0p core.
 * More about CM0+ prebuilt images, see here:
-* https://github.com/cypresssemiconductorco/psoc6cm0p
+* https://github.com/Infineon/psoc6cm0p
 *
 * \note The linker files provided with the PDL are generic and handle all common
 * use cases. Your project may not use every section defined in the linker files.
@@ -156,7 +156,7 @@
 * Cy_SysEnableCM4() function call.
 * By default, the COMPONENT_CM0P_SLEEP prebuilt image is used for the CM0p core.
 * More about CM0+ prebuilt images, see here:
-* https://github.com/cypresssemiconductorco/psoc6cm0p
+* https://github.com/Infineon/psoc6cm0p
 *
 * Change the flash and RAM sizes by editing the macros value in the
 * linker files for both CPUs:
@@ -240,7 +240,7 @@
 * clib-support library that provides newlib-compatible implementations of
 * 'sbrk', '__malloc_lock' and '__malloc_unlock':
 * <br>
-* https://github.com/cypresssemiconductorco/clib-support.
+* https://github.com/Infineon/clib-support.
 *
 * \subsubsection group_system_config_heap_stack_config_mdk ARM Compiler
 * - <b>Editing source code files</b>\n

@@ -28,6 +28,7 @@
 
 #include "cy_result.h"
 #include "cybsp_types.h"
+#include "cybsp_hw_config.h"
 #if defined(COMPONENT_WICED_BLE) || defined(COMPONENT_WICED_DUALMODE)
 #include "cybsp_bt_config.h"
 #endif
