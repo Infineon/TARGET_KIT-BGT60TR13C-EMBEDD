@@ -12,7 +12,7 @@ To use code from the BSP, simply include a reference to `cybsp.h`.
 
 ### Kit Features:
 
-* Delivers dual-cores, with a 150-MHz Arm Cortex-M4 as the primary application processor and a 100-MHz Arm Cortex-M0+ as the secondary processor. 
+* Delivers dual-cores, with a 150-MHz Arm® Cortex®-M4 as the primary application processor and a 100-MHz Arm® Cortex®-M0+ as the secondary processor. 
 * 1024-KB Flash and 288-KB SRAM for customer application on CM4
 * One-time-programmable (OTP) 1-Kb eFuse array
 * Two 12-bit 2-Msps SAR ADCs with synchronized sampling, differential and single-ended modes, 16-channel sequencer with result averaging, and Deep Sleep operation 

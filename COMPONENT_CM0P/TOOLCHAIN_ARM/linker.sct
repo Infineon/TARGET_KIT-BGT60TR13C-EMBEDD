@@ -141,6 +141,7 @@ LR_IROM1 FLASH_START FLASH_SIZE
     RW_IRAM1 +0 UNINIT
     {
         * (.noinit)
+        * (.bss.noinit)
     }
 
     ; To use unprotected public RAM uncomment the following .cy_sharedmem section placement. Recalculate the HEAP start address.
